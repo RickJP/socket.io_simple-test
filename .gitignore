@@ -1,0 +1,40 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+test-socket-io/node_modules
+test-socket-io/.pnp
+test-socket-io/.pnp.js
+
+# testing
+test-socket-io/coverage
+
+# production
+test-socket-io/build
+
+# misc
+test-socket-io/.DS_Store
+test-socket-io/.env.local
+test-socket-io/.env.development.local
+test-socket-io/.env.test.local
+test-socket-io/.env.production.local
+
+test-socket-io/npm-debug.log*
+test-socket-io/yarn-debug.log*
+test-socket-io/yarn-error.log*
+
+
+socket-io-server/.idea/
+socket-io-server/.vscode/
+socket-io-server/node_modules/
+socket-io-server/build
+socket-io-server/.DS_Store
+socket-io-server/*.tgz
+socket-io-server/my-app*
+socket-io-server/template/src/__tests__/__snapshots__/
+socket-io-server/lerna-debug.log
+socket-io-server/npm-debug.log*
+socket-io-server/yarn-debug.log*
+yarn-error.log*
+socket-io-server/.changelog
+socket-io-server/.npm/
+socket-io-server/yarn.lock
